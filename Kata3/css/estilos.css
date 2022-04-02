@@ -1,0 +1,275 @@
+.container{
+    padding-top: 40px;
+    width: 95%;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;   
+    font-size: 25px; 
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+
+}
+.container div{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+}
+.container div a{
+    text-decoration: none;  
+}
+.menu{
+    flex-grow: 1;
+    text-align: center;
+}
+.menu a{
+    color: darkgray;
+    vertical-align:middle;
+
+}
+.boton{
+    background-color: rgb(57, 57, 214);
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgb(103, 147, 230);
+}
+.boton a{
+    color: white;
+}
+.logo{
+    flex-grow: 10;
+    font-size: 45px;
+}
+.logo a{
+    color: darkblue;
+}
+.body{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.body div {
+    flex:1;
+}
+.body div h1{
+    color: rgb(34, 44, 100);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    padding-top: 40px;
+}
+.body div h2{
+    color: rgb(34, 44, 100);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    padding-top: 40px;
+}
+.body div p{
+    color: rgb(48, 59, 121);
+    font-size: 30px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.body-options{
+    display: flex;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.body-options div{
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+}
+.selection:hover{
+    box-shadow: 0px 10px 20px rgb(103, 147, 230);
+}
+.body-options h3{
+    color: rgb(34, 44, 100);
+    font-size: 30px;
+    font-weight:500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
+.body-options div p{
+    color: rgb(72, 80, 124);
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body-indications{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.body-indications div{
+    flex:1;
+}
+.body-indications-fondo{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(86, 120, 231) 62%, white 50%, white 50%, white 100%);
+    margin-right: 80px;
+    position: relative;
+    padding-top: 150px;
+}
+.body-indications div h2{
+    color: rgb(34, 44, 100);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.body-indications div p{
+    color: rgb(48, 59, 121);
+    font-size: 25px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+.list-options{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+.list-options div{
+    padding-top: 90px;
+    flex-grow: 1;
+    color: rgb(48, 59, 121);
+    font-size: 22px;
+    font-weight: bold;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align:middle;
+    position: relative;
+}
+.list-options div img{
+    padding-right: 50px;
+    padding-left: 20px;
+    vertical-align:middle;
+}
+.arrow{
+    top: 72%;
+    left: 60%;
+    margin: 0% 0 0 0%;
+    position: absolute;
+}
+.body-contact{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.body-contact div{
+    flex:1;
+}
+.body-contact div h2{
+    color: rgb(34, 44, 100);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 90px;
+}
+.body-contact-fondo{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(86, 120, 231) 62%, white 50%, white 50%, white 100%);
+    margin-right: 5px;
+    position: relative;
+    padding-top: 150px;
+}
+.body-contact div p{
+    color: rgb(48, 59, 121);
+    font-size: 25px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+
+}
+.contenedor div{
+    padding-top: 180px;
+    /* padding-left: 150px; */
+    flex-grow: 1;
+    /* display: flex;
+    flex-direction: row; */
+}
+/* .contenedor div div{
+    flex: 1;
+} */
+/* .contenedor div div span{
+    font-size: 35px;
+}
+.contenedor div div label{
+    font-size: 15px;
+}
+.call-now{
+    color: rgb(48, 59, 121);
+    font-size: 30px !important;
+    font-weight: bold;
+} */
+footer{
+    padding-top: 200px;
+}
+.body-footer{
+    display: flex;
+    align-items: center;
+
+}
+.body-footer div{
+    padding-left: 20px;
+}
+.body-footer-1{
+    flex-grow: 3;
+}
+.body-footer-2{
+    flex-grow: 1;
+}
+.body-footer-1 h2{
+    color: rgb(45, 48, 182);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+}
+.body-footer-1 p{
+    color: rgb(145, 145, 168);
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    padding-left: 80px;
+}
+.body-footer-2 h2{
+    color: rgb(34, 44, 100);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+}
+.body-footer-2 p{
+    color: rgb(145, 145, 168);
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    display:flex;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.footer div{
+    flex-grow: 1;
+    color: rgb(76, 76, 139);
+    font-size: 22px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
